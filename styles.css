@@ -1,0 +1,133 @@
+/* COLORS TO USE ---> e1e5ea */
+h1 {
+  color: white;
+  font-family: Merriweather;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+}
+
+/* Title Section */
+.title-sec {
+  background-image: url("C:/Users/prana/OneDrive/Code/Urban Nature/media/bg-leaf.jpg");
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding: 7% 15%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.main-title {
+  color: white;
+  font-size: 5.625rem;
+  position: relative;
+  z-index: 1;
+}
+
+.subtitle {
+  color: white;
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  margin-bottom: 7rem;
+}
+
+.subtitle:hover {
+  color: #ffb037;
+}
+
+.title-text {
+  color: white;
+  font-family: "Alegreya Sans SC";
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  bottom: 0.6rem;
+}
+
+/* Navigation */
+.navigation{
+  height: auto;
+  padding: 5% 5% 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.nav-header{
+  font-size: 3.2rem;
+  text-align: center;
+  color: #184d47;
+  margin: 2.3rem;
+  padding-bottom: 3%;
+}
+
+.row-1{
+  margin-bottom: 3.5rem;
+}
+
+.row-2{
+  text-align: center;
+}
+
+#r2r{
+  padding-right: 18%;
+}
+
+#r2l{
+  padding-left: 18%;
+}
+
+.nav-img{
+  border-radius: 10%;
+  height: 12.65rem;
+  width: 22.5rem;
+}
+
+.nav-img:hover{
+  opacity: 70%;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #184d47;
+  color: white;
+  margin-top: 6.5rem;
+  padding: 7% 15% 1%;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.i-nat {
+  margin: auto 1rem;
+  height: 2.5rem;
+  filter: brightness(0) invert(1);
+  position: relative;
+  bottom: 0.65rem;
+  width: 2.5rem;
+}
+
+.i-nat:hover{
+  filter: contrast(0);
+}
+
+.mail{
+  filter: brightness(0) invert(1);
+  font-size:2.2rem;
+  margin: auto 1rem;
+}
+
+.mail:hover{
+  filter: contrast(0);
+}
+
+.credit{
+  font-family: Montserrat;
+  margin: 1rem auto 3.5rem;
+}
